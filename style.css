@@ -1,0 +1,116 @@
+body{
+    background-color: #D1DDE1;
+    background-image: url(halvcirkel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Bulgur billede og pile til at swipe*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.bulgur{
+    justify-self: center;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 15px;
+    margin: 25px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    
+  }
+  .navn{
+      position: absolute;
+      right: 140px;
+      color: #707070;
+  }
+  .lisa{
+    position: relative;
+    right: 10px;
+    left: 70px;
+    margin: 10px;
+    margin-top: 10px;
+    color: #707070 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .bulgursalat{
+    color:#707070 ;
+    position: relative;
+    right: 10px;
+    left: 70px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .pris{
+    color: #707070;
+    position: relative;
+    right: 10px;
+    left: 95px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+/* Kategori, ingrediens og beskrivelses barer*/
+section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}
+/* Bestil knap*/
+.button {
+    background-color:#92FB82; 
+    border: none;
+    border-radius: 50%;
+    color: white;
+    height: 2cm;
+    width: 2cm;
+    padding: 1px 2px;
+    position: absolute;
+    bottom: -50px;
+    right:45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Footer: Med footer bar, hjemknap og plusknap*/
+  footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 100px;
+      justify-content: center;
+      position: relative;
+
+  }
+  .footerbar{
+    position: relative;
+    right: 110px;
+    margin: 25px;
+  }
+  .hjem{
+    position: relative;
+    left: 280px;
+    z-index: 1;
+  }
+  .plusknap{
+    position: relative;
+    left: 240px;
+    z-index: 1;
+    margin: 50px; 
+  }
+
