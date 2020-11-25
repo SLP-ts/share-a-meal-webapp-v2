@@ -1,0 +1,33 @@
+/* Font*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Base styles*/
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-image: url(/img/aroundthetable2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/*Header*/
+h1{
+    position: relative;
+    align-content: center;
+}
+.logo {
+    position: relative;
+    max-width: 200px;
+    max-height: 280px;
+    float: left;
+}
+/*Main*/
+.buyapp {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+
+}
+
+
+
