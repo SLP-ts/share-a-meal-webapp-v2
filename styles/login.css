@@ -1,0 +1,59 @@
+/*Base styles*/
+
+body {
+       background-image: url(../img/shareameallogo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #A4C2C4;
+    width: auto;
+    height: 250px;
+    border-bottom-left-radius: 5000px;
+    border-bottom-right-radius: 5000px;
+    z-index: 0;
+}
+.logo {
+    position: relative;
+    max-width: 300px;
+    max-height: 280px;
+    z-index: 20;
+}
+.login {
+    display: block;
+    margin-top: 50px;
+    padding-left: 60px;
+    margin-right: auto;
+}
+.kodeord {
+    display: block;
+    padding-left: 60px;
+    margin-right: auto;
+}
+p {
+    padding-left: 65px;
+}
+button {
+    background:none;
+    border:none;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logknap {
+    background: none;
+    border: 2px solid gray;
+    border-radius: 30px;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    
+}
+
+
+/*Desktop styles*/
+@media screen and (min-width: 1280px)
+{}
